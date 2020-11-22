@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/LHR2"
+            android:title="London Heathrow" />
+
+    <item
+            android:id="@+id/BOM2"
+            android:title="Mumbai" />
+
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="264dp"
+            android:layout_margin="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp" android:id="@+id/relativeLayout">
+
+            <ImageView
+                    android:id="@+id/imageView"
+                    android:src="@drawable/ai"
+                    android:layout_width="155dp"
+                    android:layout_height="63dp"
+                    android:padding="4dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="11dp" app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="182dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="237dp" android:layout_marginEnd="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+            <TextView
+                    android:id="@+id/textViewPrice"
+                    android:layout_width="135dp"
+                    android:layout_height="73dp"
+                    android:text="INR 56990"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="82dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="259dp" app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="101dp" app:layout_constraintEnd_toEndOf="parent"/>
+            <TextView
+                    android:text="DepartureTIme"
+                    android:textSize="20dp"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/DepartureTime"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="86dp" app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="90dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="12dp" android:layout_marginEnd="182dp"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+            <TextView
+                    android:text="ArrivalTime"
+                    android:textSize="20dp"
+                    android:layout_width="200dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/ArrivalTime"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="174dp" app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="2dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="17dp" android:layout_marginEnd="177dp"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+            <TextView
+                    android:text="AirlineName"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/AirlineName"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginTop="13dp" app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="193dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginEnd="186dp"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

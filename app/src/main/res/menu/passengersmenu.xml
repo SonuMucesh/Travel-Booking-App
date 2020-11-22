@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/Adult"
+            android:title="Adult" >
+        <menu>
+            <item
+                    android:id="@+id/ADT1"
+                    android:title="1" />
+
+            <item
+                    android:id="@+id/ADT2"
+                    android:title="2" />
+
+            <item
+                    android:id="@+id/ADT3"
+                    android:title="3" />
+        </menu>
+    </item>
+    <item
+            android:id="@+id/Child"
+            android:title="Child">
+
+        <menu>
+            <item
+                    android:id="@+id/CHD1"
+                    android:title="1" />
+            <item
+                    android:id="@+id/CHD2"
+                    android:title="2" />
+            <item
+                    android:id="@+id/CHD3"
+                    android:title="3" />
+        </menu>
+
+    </item>
+
+
+    <item
+            android:id="@+id/Infant"
+            android:title="Infant">
+    <menu>
+
+        <item
+                android:id="@+id/INF1"
+                android:title="1" />
+
+        <item
+                android:id="@+id/INF2"
+                android:title="2" />
+
+        <item
+                android:id="@+id/INF3"
+                android:title="3" />
+
+    </menu>
+
+    </item>
+
+</menu>

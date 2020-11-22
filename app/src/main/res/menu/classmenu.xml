@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/Eco"
+            android:title="Economy" />
+
+    <item
+            android:id="@+id/PEco"
+            android:title="Premium Economy" />
+
+    <item
+            android:id="@+id/FClass"
+            android:title="First Class" />
+
+    <item
+            android:id="@+id/BClass"
+            android:title="Buisness Class" />
+
+
+
+</menu>
